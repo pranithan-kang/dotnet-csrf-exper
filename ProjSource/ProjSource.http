@@ -1,0 +1,12 @@
+@ProjSource_HostAddress = http://localhost:5010
+
+###
+
+GET {{ProjSource_HostAddress}}/Source/ProxyGet
+Content-Type: application/json
+
+###
+
+GET {{ProjSource_HostAddress}}/Source/ProxyPost
+Content-Type: application/json
+

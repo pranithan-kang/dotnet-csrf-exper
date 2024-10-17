@@ -1,0 +1,13 @@
+@ProjDest_HostAddress = http://localhost:5011
+
+###
+
+GET {{ProjDest_HostAddress}}/Dest/BackendGetAction/
+Content-Type: application/json
+
+
+###
+POST {{ProjDest_HostAddress}}/Dest/BackendPostAction/
+Authorization: Bearer api-token
+Content-Type: application/json
+
